@@ -1,0 +1,126 @@
+export const styledTheme = {
+  colors: {
+    default: {
+      base: '#e0e0e0',
+      dark: '#bdbdbd',
+      light: '#fafafa',
+      contrast: '#000',
+    },
+    primary: {
+      base: '#b42364',
+      dark: '#831949',
+      light: '#fceef4',
+      contrast: '#ffffff',
+    },
+    secondary: {
+      base: '#7323b4',
+      dark: '#541983',
+      light: '#ecdef8',
+      contrast: '#ffffff',
+    },
+    info: {
+      base: '#2364b4',
+      dark: '#194983',
+      light: '#cddff5',
+      contrast: '#ffffff',
+    },
+    success: {
+      base: '#23b473',
+      dark: '#198354',
+      light: '#cdf5e3',
+      contrast: '#ffffff',
+    },
+    warning: {
+      base: '#dbd648',
+      dark: '#d2cd29',
+      light: '#f2f0bb',
+      contrast: '#0e0d03',
+    },
+    danger: {
+      base: '#b42b23',
+      dark: '#831f19',
+      light: '#f8dfde',
+      contrast: '#ffffff',
+    },
+    light: {
+      base: '#f5f5f5',
+      dark: '#000d10',
+      light: '#f5f5f5',
+      contrast: '#000000',
+    },
+    dark: {
+      base: '#000d10',
+      dark: '#070809',
+      light: '#f5f5f5',
+      contrast: '#ffffff',
+    },
+    black: '#000000',
+    white: '#ffffff',
+    gray: {
+      100: '#f5f5f5',
+      200: '#eeeeee',
+      300: '#e0e0e0',
+      400: '#bdbdbd',
+      500: '#9e9e9e',
+      600: '#757575',
+      700: '#616161',
+      800: '#424242',
+      900: '#212121',
+    },
+    transparent: 'transparent',
+  },
+  shape: {
+    borderRadius: {
+      none: '0',
+      pill: '9999px',
+      circle: '50%',
+      rounded: '0.25rem',
+      'rounded-sm': '0.125rem',
+      'rounded-md': '0.25rem',
+      'rounded-lg': '0.5rem',
+      'rounded-full': '9999px',
+    },
+  },
+  units: {
+    spacing: {
+      sm: '0.25rem',
+      md: '0.5rem',
+      lg: '1rem',
+      xl: '2rem',
+    },
+    padding: {
+      sm: '0.375rem 0.75rem',
+      md: '0.675rem 1.25rem',
+      lg: '1rem 2rem',
+      xl: '2rem 4rem',
+    },
+    font: {
+      family: 'Roboto, sans-serif',
+      weight: {
+        light: '300',
+        regular: '400',
+        medium: '500',
+        bold: '700',
+        bolder: '900',
+      },
+      size: {
+        sm: '0.875rem',
+        md: '1rem',
+        lg: '1.125rem',
+        xl: '1.25rem',
+      },
+    },
+  },
+  typography: {},
+  breakpoints: {},
+  form: {
+    input: {
+      height: {
+        sm: '2rem',
+        md: '3rem',
+        lg: '3.5rem',
+        xl: '4.5rem',
+      },
+    },
+  },
+};
